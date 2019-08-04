@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SleetShang/react-native-image-metedata.git"
+    "url": "git+https://github.com/khiemkino/react-native-image-metedata.git"
   },
   "keywords": [
     "react-native",
@@ -19,7 +19,7 @@
   "author": "SleetShang",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/SleetShang/react-native-image-metedata/issues"
+    "url": "https://github.com/khiemkino/react-native-image-metedata/issues"
   },
-  "homepage": "https://github.com/SleetShang/react-native-image-metedata#readme"
+  "homepage": "https://github.com/khiemkino/react-native-image-metedata#readme"
 }
