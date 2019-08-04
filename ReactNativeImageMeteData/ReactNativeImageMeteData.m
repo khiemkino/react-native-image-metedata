@@ -53,22 +53,11 @@ RCT_EXPORT_METHOD(editMeteDataPhotoForiOS:(NSString *)imagePath meteDataInfo:(NS
             CGImageDestinationAddImageFromSource(destination, imageSource, 0, (__bridge CFDictionaryRef)dictInfo);
             CGImageDestinationFinalize(destination);
             [newImageData writeToFile: imagePath atomically:YES];
-            resolve(meteDataInfo);
+            resolve(dictInfo);
         }
         @catch(NSException *exception){
             NSString *exceptionStr = NSStringFromClass(exception);
             reject(exceptionStr,0,NULL);
-        }
-        @finally{
-            if(imageSource){
-                CFRelease(imageSource);
-            }
-            if(UTI){
-                CFRelease(UTI);
-            }
-            if(destination){
-                CFRelease(destination);
-            }
         }
 }
 @end
