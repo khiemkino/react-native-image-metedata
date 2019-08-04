@@ -1,0 +1,25 @@
+{
+  "name": "react-native-image-metedata",
+  "version": "1.0.2",
+  "description": "it can help you to read and edit the metedata of photo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SleetShang/react-native-image-metedata.git"
+  },
+  "keywords": [
+    "react-native",
+    "exif",
+    "image",
+    "metedata"
+  ],
+  "author": "SleetShang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SleetShang/react-native-image-metedata/issues"
+  },
+  "homepage": "https://github.com/SleetShang/react-native-image-metedata#readme"
+}
